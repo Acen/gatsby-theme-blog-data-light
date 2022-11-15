@@ -1,5 +1,8 @@
 {
   "name": "@acen/gatsby-theme-blog-data-light",
+  "repository": {
+    "url": "https://github.com/acen/gatsby-theme-blog-data-light.git"
+  },
   "description": "WordPress core source theme for Gatsby using WPGraphQL",
   "author": "Alexandra Spalato <alexaspalato@gmail.com>",
   "version": "1.2.0",
