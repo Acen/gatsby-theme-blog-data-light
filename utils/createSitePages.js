@@ -7,7 +7,7 @@ module.exports = async ({ actions, graphql }, options) => {
 
   const GET_PAGES = `
   query GET_PAGES {
-    allWpPage(sort: { order: DESC, fields: date }) {
+    allWpPage(sort: { order: DESC }) {
       nodes {
         id
         uri
