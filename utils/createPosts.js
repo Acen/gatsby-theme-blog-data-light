@@ -14,7 +14,7 @@ module.exports = async ({ actions, graphql }, options) => {
 
   const GET_POSTS = `
   query GET_POSTS($limit:Int){
-    allWpPost(limit: $limit, sort: {order: DESC}) {
+    allWpPost(limit: $limit, sort: [{date: DESC}]) {
       edges {
         previous {
           uri
