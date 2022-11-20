@@ -5,7 +5,7 @@
   },
   "description": "WordPress core source theme for Gatsby using WPGraphQL",
   "author": "Alexandra Spalato <alexaspalato@gmail.com>",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "main": "index.js",
   "license": "SEE LICENSE IN LICENSE",
   "publishConfig": {
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "gatsby-awesome-pagination": "^0.3.8",
-    "gatsby-source-wordpress": "^6.20.0",
+    "gatsby-source-wordpress": "^7.0.0",
     "normalize-path": "^3.0.0",
     "remove-trailing-slash": "^0.1.1"
   },
