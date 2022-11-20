@@ -5,7 +5,7 @@ export default Blog
 
 export const pageQuery = graphql`
   query($skip: Int!, $limit: Int!) {
-    allWpPost(limit: $limit, skip: $skip, sort: { order: DESC, fields: date }) {
+    allWpPost(limit: $limit, skip: $skip, sort: [{date: DESC}]) {
       nodes {
         ...PostTemplateFragment
       }
